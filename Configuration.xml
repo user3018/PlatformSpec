@@ -53,7 +53,7 @@
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
-			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<UseOrdinaryFormInManagedApplication>true</UseOrdinaryFormInManagedApplication>
 			<AdditionalFullTextSearchDictionaries/>
 			<CommonSettingsStorage/>
 			<ReportsUserSettingsStorage/>
@@ -228,7 +228,7 @@
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
-			<DataLockControlMode>Automatic</DataLockControlMode>
+			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
@@ -239,6 +239,9 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ВсеОбъекты</Subsystem>
+			<Subsystem>Сервис</Subsystem>
+			<Subsystem>Продажи</Subsystem>
 			<CommonPicture>ОперативныйУчет</CommonPicture>
 			<CommonPicture>БухгалтерскийУчет</CommonPicture>
 			<CommonPicture>Расчеты</CommonPicture>
@@ -254,13 +257,16 @@
 			<Document>НачислениеЗарплаты</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Report>Продажи</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
+			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
