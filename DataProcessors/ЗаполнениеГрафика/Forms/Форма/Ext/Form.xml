@@ -19,6 +19,12 @@
 			<ContextMenu name="ВыборПериодаКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ВыборПериодаРасширеннаяПодсказка" id="7"/>
 		</InputField>
+		<InputField name="График" id="9">
+			<DataPath>График</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ГрафикКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ГрафикРасширеннаяПодсказка" id="11"/>
+		</InputField>
 		<InputField name="ВыходныеДни" id="3">
 			<DataPath>ВыходныеДни</DataPath>
 			<HorizontalAlign>Right</HorizontalAlign>
@@ -63,6 +69,20 @@
 			</Type>
 			<Save>
 				<Field>ВыходныеДни</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="График" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>График</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Графики</v8:Type>
+			</Type>
+			<Save>
+				<Field>График</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
