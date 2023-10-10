@@ -98,7 +98,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Attribute uuid="1d6ac5ec-da98-44b8-a350-35e1aa807864">
+			<Resource uuid="816a23e4-816f-4689-a721-5a8b66de474a">
 				<Properties>
 					<Name>Часы</Name>
 					<Synonym>
@@ -135,11 +135,9 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<ScheduleLink/>
-					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
-			</Attribute>
+			</Resource>
 			<Attribute uuid="4122ad48-c02c-409f-bf75-81df3b0d5a5c">
 				<Properties>
 					<Name>Размер</Name>
